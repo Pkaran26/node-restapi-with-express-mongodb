@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/prateek/.npm-global/bin:/home/prateek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/prateek/Android/Sdk/tools:/home/prateek/Android/Sdk/tools/bin:/home/prateek/Android/Sdk/platform-tools:/home/prateek/Android/Sdk/emulator:/home/prateek/.local/bin/
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/prateek/node project/rest-api-mongodb/package.json: Unexpected token { in JSON at position 113
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "rest-api-mongodb",
+    "version": "1.0.0",
+    "main": "server.js",
+    "license": "MIT",
+    "dependecies" {
+      "body-parser": "^1.18.3",
+      "express": "^4.16.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

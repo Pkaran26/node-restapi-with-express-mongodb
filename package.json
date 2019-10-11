@@ -1,0 +1,16 @@
+{
+  "name": "rest-api-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.7.4",
+    "nodemon": "^1.19.3"
+  }
+}
